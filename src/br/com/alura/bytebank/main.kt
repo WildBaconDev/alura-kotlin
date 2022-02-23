@@ -1,34 +1,25 @@
 package br.com.alura.bytebank
 
-import br.com.alura.bytebank.modelo.Cliente
-import br.com.alura.bytebank.modelo.Endereco
-import br.com.alura.bytebank.teste.testaFuncionarios
+import java.math.BigDecimal
 
 fun main() {
-    val endereco = Endereco(
-        logradouro = "Rua vergueiro",
-        complemento = "Alura",
-        cep = "00000-0700"
-    )
-    val enderecoNovo = Endereco(
-        logradouro = "Rua vergueiro",
-        complemento = "Alura",
-        cep = "00000-0700"
-    )
+//    val arr = (1..100)
+//    arr.forEach { print("$it ") }
+//
+//    println( if (1 in arr) "achô" else "faiô" )
+//        println(s)
 
-    println(endereco.equals(enderecoNovo))
 
-    println(endereco.hashCode())
-    println(enderecoNovo.hashCode())
+//    ARrayLi
+    val salariosArr = arrayOf("1500", "2000", "2500", "3000")
+    val salariosBD = salariosArr.map(::toBigDecimal)
+    salariosBD.forEach(::prettyPrint)
 
-    println(endereco)
-    println(enderecoNovo)
+    println(salariosBD.somatoria())
 
-    println("${endereco.javaClass}@${
-    Integer.toHexString(endereco.hashCode())}")
 }
 
-fun imprime(valor: Any): Any {
-    println(valor)
-    return valor
-}
+fun toBigDecimal(value: String) = value.toBigDecimal()
+fun prettyPrint(value: BigDecimal) = print("${value.longValueExact()} ")
+
+fun List<BigDecimal>.somatoria() = this.reduce { acc, bigDecimal -> acc.add(bigDecimal) }

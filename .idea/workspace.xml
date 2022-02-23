@@ -4,41 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e875166-7092-43ed-8b49-2c859acf908a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/modelo/Endereco.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/teste/testaObjects.kt" afterDir="false" />
+    <list default="true" id="6e875166-7092-43ed-8b49-2c859acf908a" name="Changes" comment="Fim">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alura-kotlin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/alura-kotlin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/alura-kotlin/CalculadoraBonificacao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/alura-kotlin/Conta.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/alura-kotlin/Funcionario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/alura-kotlin/Gerente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/alura-kotlin/META-INF/alura-kotlin.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/alura-kotlin/MainKt$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/alura-kotlin/MainKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Analista.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/modelo/Analista.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Autenticavel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/modelo/Autenticavel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Auxiliar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/modelo/Auxiliar.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/CalculadoraBonificacao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/modelo/CalculadoraBonificacao.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Cliente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/modelo/Cliente.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Conta.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/modelo/Conta.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ContaCorrente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/modelo/ContaCorrente.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ContaPoupanca.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/modelo/ContaPoupanca.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Diretor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/modelo/Diretor.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Funcionario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/modelo/Funcionario.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/FuncionarioAdmin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/modelo/FuncionarioAdmin.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Gerente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/modelo/Gerente.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/SistemaInterno.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/modelo/SistemaInterno.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/main.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/testaAutenticacao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/teste/testaAutenticacao.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/testaComportamentosConta.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/teste/testaComportamentosConta.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/testaCondicoes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/teste/testaCondicoes.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/testaContasDiferentes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/teste/testaContasDiferentes.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/testaCopiasEReferencias.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/teste/testaCopiasEReferencias.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/testaFuncionarios.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/teste/testaFuncionarios.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/testaLacos.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/teste/testaLacos.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/bytebank/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,17 +70,31 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainKt" />
+  <component name="RunManager" selected="Kotlin.MainKt">
+    <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.bytebank.MainKt" />
       <module name="alura-kotlin" />
+      <shortenClasspath name="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.bytebank.MainKt" />
+      <module name="alura-kotlin" />
+      <shortenClasspath name="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Kotlin.MainKt" />
+      <item itemvalue="Kotlin.MainKt (1)" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Kotlin.MainKt (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -140,5 +122,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Fim" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fim" />
   </component>
 </project>
