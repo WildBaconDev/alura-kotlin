@@ -1,25 +1,49 @@
 package br.com.alura.bytebank
 
-import java.math.BigDecimal
+import br.com.alura.bytebank.modelo.Cliente
+import br.com.alura.bytebank.modelo.ContaPoupanca
+import br.com.alura.bytebank.modelo.Endereco
+import br.com.alura.bytebank.teste.testaHOF
 
 fun main() {
-//    val arr = (1..100)
-//    arr.forEach { print("$it ") }
-//
-//    println( if (1 in arr) "achô" else "faiô" )
-//        println(s)
-
-
-//    ARrayLi
-    val salariosArr = arrayOf("1500", "2000", "2500", "3000")
-    val salariosBD = salariosArr.map(::toBigDecimal)
-    salariosBD.forEach(::prettyPrint)
-
-    println(salariosBD.somatoria())
-
+    testaHOF()
 }
 
-fun toBigDecimal(value: String) = value.toBigDecimal()
-fun prettyPrint(value: BigDecimal) = print("${value.longValueExact()} ")
+fun testaRun() {
+    val taxaAnual = 0.05
+    val taxaMensal = taxaAnual / 12
+    println("taxa mensal $taxaMensal")
 
-fun List<BigDecimal>.somatoria() = this.reduce { acc, bigDecimal -> acc.add(bigDecimal) }
+    val contaPoupanca = ContaPoupanca(Cliente(nome = "Alex", cpf = "111.111.111-11", senha = 1234), 1000)
+
+    contaPoupanca.run {
+        deposita(1000.0)
+        saldo * taxaMensal
+    }.let { rendimentoMensal ->
+        println("rendimento mensal $rendimentoMensal")
+    }
+
+    val rendimentoAnual = run {
+        var saldo = contaPoupanca.saldo
+        repeat(12) {
+            saldo += saldo * taxaMensal
+        }
+        saldo
+    }
+    println("simulação rendimento anual $rendimentoAnual")
+}
+
+fun testaWith() {
+    with(Endereco()) {
+        logradouro = "rua vergueiro"
+        numero = 3185
+        bairro = "Vila Mariana"
+        cidade = "São Paulo"
+        estado = "SP"
+        cep = "02310-063"
+        complemento = "Apartamento"
+        completo()
+    }.let { enderecoCompleto: String ->
+        println(enderecoCompleto)
+    }
+}

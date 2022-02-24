@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6e875166-7092-43ed-8b49-2c859acf908a" name="Changes" comment="Fim">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/alura-kotlin/br/com/alura/bytebank/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/alura-kotlin/br/com/alura/bytebank/MainKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/alura/bytebank/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/bytebank/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
